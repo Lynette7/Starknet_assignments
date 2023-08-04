@@ -2,7 +2,7 @@ use debug::PrintTrait;
 
 fn sum_multiples(n: u32, m: u32) -> u32 {
     let mut result: u32 = 0;
-    let mut count: u32 = 0;
+    let mut count: u32 = 1;
     loop {
         if count == n + 1 {
             break;
@@ -17,6 +17,6 @@ fn sum_multiples(n: u32, m: u32) -> u32 {
 }
 
 fn main() {
-    let res = sum_multiples(8, 2);
+    let res = sum_multiples(10, 2);
     res.print();
 }
