@@ -21,9 +21,9 @@ let mut data_array: Array<Data> = ArrayTrait::new();
 }
 ```
 
-I. Append an Integer data element with the value 100.
-II. Append a Felt data element with the felt value 'hello'.
-III. Append a Tuple data element with the tuple (10, 30).
-IV. Pop the last data element from the array and store it in a variable called popped_element.
-V. Access the second element of the array using the get method and store it in a variable called second_element.
-VI. Swap the first and second elements in the array
+- Append an Integer data element with the value 100.
+- Append a Felt data element with the felt value 'hello'.
+- Append a Tuple data element with the tuple (10, 30).
+- Pop the last data element from the array and store it in a variable called popped_element.
+- Access the second element of the array using the get method and store it in a variable called second_element.
+- Swap the first and second elements in the array
