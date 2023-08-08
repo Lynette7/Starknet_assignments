@@ -1,10 +1,12 @@
-use array::ArrayTrait
-#[derive(Copy, Debug)]
+use array::ArrayTrait;
+use debug::PrintTrait;
+
+#[derive(Copy, Drop)]
 
 enum Data {
-    Integer(u128),
-    Felt(u32),
-    Tuple((u32, u32))
+    Integer: u128,
+    Felt: felt252,
+    Tuple: (u32, u32),
 }
 fn main() {
     let mut data_array: Array<Data> = ArrayTrait::new();
